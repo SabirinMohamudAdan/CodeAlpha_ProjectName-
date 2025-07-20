@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+            <button class="filter-btn" data-filter="travel">Travel</button>
+        </div>
+        
+        <div class="gallery"></div>
+        
+        <div class="lightbox">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="lightbox-content">
+                <img src="" alt="Lightbox Image">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
